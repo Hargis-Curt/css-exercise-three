@@ -47,7 +47,9 @@ table {
 }
 
 .arrow {
-  float: right;
+  display: inline-block;
+  position: relative;
+  
 }
 
 body {
@@ -62,14 +64,25 @@ body {
   width: 420px;
 }
 
+.content {
+  display: inline-block;
+  width: 90%;
+}
+
+
+
 .content h1 {
+  display: inline-block;
   font-size: 2em;
   font-weight: bold;
   line-height: 1.5em;
+  width: 330px;
 }
 
 .content h3 {
-  font-size: 1.5em;
+  display: inline-block;
+  font-size: 1.3em;
+  width: 330px;
 }
 
 nav {
@@ -87,5 +100,5 @@ nav {
   background-color: #ffffff;
   border: .25%;
   margin: .5%;
-  padding: 2%;
+  padding: 1.5%;
 }
