@@ -53,6 +53,7 @@ div {
 
 
 .location {
+  border-bottom: 1px solid black;
   display: inline-block;
   padding: 10px 0 15px 15px;
 }
