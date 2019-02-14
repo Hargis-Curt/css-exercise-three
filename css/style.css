@@ -27,8 +27,6 @@ body {
   width: 90%;
 }
 
-
-
 .content h1 {
   display: inline-block;
   font-size: 2em;
@@ -58,6 +56,7 @@ div {
   padding: 10px 0 15px 15px;
 }
 
+div.location:hover { color: blue; }
 
 
 
@@ -73,7 +72,7 @@ nav {
 }
 
 .restaurant-list div {
-  background-color: #ffffff;
+  background-color: #E0E0E0;
   border: .25%;
   padding: 1.5%;
 }
